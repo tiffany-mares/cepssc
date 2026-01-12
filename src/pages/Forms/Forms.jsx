@@ -26,28 +26,43 @@ const Forms = () => {
 
       <Title subtitle='' title='Board Meeting Minutes'/>
       <ul>
-        <h3> 2024 - 2025 Minutes</h3>
+        <h3> 2025 - 2026 Minutes</h3>
 
-          <li><a href="/meeting1.pdf" target="_blank" rel="noopener noreferrer">
-            Agenda 1, September 16th</a></li>
+          <li><a href="/CEPSSC%20Board%20Meeting%23%2012%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 12, January 12</a></li>
 
-          <li><a href="/meeting2.pdf" target="_blank" rel="noopener noreferrer">
-            Agenda 2, September 23rd</a></li>
+          <li><a href="/CEPSSC%20Board%20Meeting%23%2011%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 11, November 17</a></li>
 
-          <li><a href="/meeting3.pdf" target="_blank" rel="noopener noreferrer">
-            Agenda 3, October 7st </a></li>
+          <li><a href="/CEPSSC%20Board%20Meeting%23%2010%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 10, November 10</a></li>
 
-          <li><a href="/meeting4.pdf" target="_blank" rel="noopener noreferrer">
-            Agenda 4, October 21st </a></li>
+          <li><a href="/CEPSSC%20Board%20Meeting%23%209%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 9, November 3</a></li>
 
-          <li><a href="/meeting5.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 5, November 4th </a></li>
+          <li><a href="/CEPSSC%20Board%20Meeting%23%208%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 8, October 20</a></li>
 
-          <li><a href="/meeting6.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 6, November 19th </a></li>
+          <li><a href="/CEPSSC%20Board%20Meeting%23%207%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 7, October 6</a></li>
 
-          <li><a href="/meeting7.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 7, January 14th </a></li>
+          <li><a href="/CEPSSC%20Board%20Meeting%23%206%20of%202025-2026%20term%20Agenda%20V2.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 6, September 29</a></li>
+
+          <li><a href="/CEPSSC%20Board%20Meeting%23%205%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 5, September 22</a></li>
+
+          <li><a href="/CEPSSC%20Board%20Meeting%23%204%20of%202025-2026%20term%20Agenda%20V2.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 4, September 8</a></li>
+
+          <li><a href="/CEPSSC%20Board%20Meeting%23%203%20of%202025-2026%20term%20Agenda%20v2.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 3, August 7</a></li>
+
+          <li><a href="/CEPSSC%20Board%20Meeting%23%202%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 2, July 7</a></li>
+
+          <li><a href="/CEPSSC%20Board%20Meeting%23%201%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+            Agenda 1, June 26</a></li>
 
       </ul>
 
@@ -97,7 +112,7 @@ const Forms = () => {
       To download the document, please click 
       the button.
       </p>
-      <a href="/CEPSSC Constitution - Google Docs.pdf" download className='btn dark-btn'>
+      <a href="/Approved%20Constitution%20for%20the%20CCMPS%20College%20Government.docx" download className='btn dark-btn'>
         View Document
       </a>
     </div>

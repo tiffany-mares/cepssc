@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        &copy; Made by <a className='pranay' href='https://www.pranayharpalani.com' target='_blank'>Pranay Harpalani</a> | All Rights Reserved
+        &copy; Made by <a className='pranay' href='https://www.pranayharpalani.com' target='_blank'>Pranay Harpalani</a> & <a className='pranay' href='https://tiffanymares.com' target='_blank'>Tiffany-Miruna Mares</a> | All Rights Reserved
       </div>
     </footer>
   );

@@ -1,8 +1,6 @@
 import React from 'react'
 import './Organizations.css'
 
-import gos from '../../assets/gos.webp'
-import eng from '../../assets/eng.png'
 import math from '../../assets/math.jpg'
 import pi from '../../assets/pi.png'
 import socis from '../../assets/socis.png'
@@ -19,32 +17,6 @@ const Organizations = () => {
     return (
         
         <div className="orgs">
-            <div className="constrain">
-                <div className="org">
-                    <a href="https://www.guelphengsoc.com/" target="_blank" rel="noopener noreferrer">
-                        <img src={gos} alt="gos" />
-                        <div className="caption-2">
-                            <img src={eng} alt="gear" />
-                            <p>Check us out!</p>
-                        </div>
-                    </a>
-                </div>
-                <div className="additional-info">
-                        <h3> Guelph Engineering Society </h3>
-                        <p> <br />
-                        The Guelph Engineering Society (EngSoc) 
-                        is a team of students from all years and 
-                        programs who organize events, services, 
-                        and represent Guelph Engineering students. 
-                        We work to give students academic, professional, 
-                        and social resources, making sure everyone has 
-                        a great experience while earning their 
-                        engineering degrees at the University of Guelph.
-                            <br /><br /><br /><br /><br />
-                        </p>
-                </div>
-            </div>
-
             <div className="constrain">
                 <div className="org">
                     <a href="https://www.instagram.com/uogmathandstats/" target="_blank" rel="noopener noreferrer">

@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import summitlady from '../../assets/summit-lady.png'
-import cepsscteams from '../../assets/cepssc-teams.png'
+import programs from '../../assets/programs.png'
 
 import Team from './Team'
 import './Team.css'
@@ -17,7 +17,7 @@ const About = () => {
             <h2> ABOUT CEPSSC </h2>
             <p> The College of Engineering and Physical Sciences 
                 Student Council (CEPSSC) helps to ensure the wellbeing
-                of all students in CEPS. We seek to maintain harmonious 
+                of all students in CCMPS. We seek to maintain harmonious 
                 and effective communication between the college,
                 students, alumni associations and the university community 
                 at large. We run events throughout the year and promote 
@@ -30,7 +30,7 @@ const About = () => {
     </div>
     <div className='about-2'>
         <h2> Who is part of CEPSSC?</h2>
-        <img src={cepsscteams} alt="clubs" />
+        <img src={programs} alt="programs" />
     </div>
     <div className='about-3'>
         <h2 className='blue'> Meet the Team</h2>

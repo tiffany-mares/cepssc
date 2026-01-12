@@ -1,13 +1,12 @@
 import React, { useRef } from 'react'
 import blankpfp from '../../assets/blank-pfp.webp'
-import michaela from '../../assets/michaela.jpg'
 import nexticon from '../../assets/next-icon.png'
 import backicon from '../../assets/back-icon.png'
-import me from '../../assets/me.jpeg'
-import alex from '../../assets/alex.jpg'
+import ethan from '../../assets/Screenshot 2026-01-12 002439.png'
 import ellena from '../../assets/ellena.jpeg'
+import tiffany from '../../assets/pfp.jpeg'
 import marcus from '../../assets/marcus.jpg'
-import noel from '../../assets/noel.jpg'
+import noel from '../../assets/Screenshot 2026-01-12 003456.png'
 
 
 const Team = () => {
@@ -39,15 +38,15 @@ const Team = () => {
                 <li>
                     <div className="slide">
                         <div className="user-info">
-                            <img src={michaela} alt="user" />
+                            <img src={marcus} alt="user" />
                             <div>
-                                <h3 className='michaela'>Michaela Hishon </h3>
+                                <h3>Marcus Aldred-Ganhao</h3>
                                 <span>President</span>
                             </div>
                         </div>
                         <p>
-                        As President, Michaela is responsible for overseeing 
-                        the commitee and ensuring that all events run smoothly. 
+                        As President, Marcus is responsible for overseeing 
+                        the committee and ensuring that all events run smoothly. 
                         </p>
                     </div>
                 </li>
@@ -57,15 +56,15 @@ const Team = () => {
                 <li>
                     <div className="slide">
                         <div className="user-info">
-                            <img src={ellena} alt="user" />
+                            <img src={tiffany} alt="user" />
                             <div>
-                                <h3 className='elena'>Ellena Song</h3>
-                                <span> VP of Communications </span>
+                                <h3>Tiffany-Miruna Mares</h3>
+                                <span>Vice President of Communications</span>
                             </div>
                         </div>
                         <p>
-                            Ellena is responsible for managing the club's social media
-                            and answering all enqueries.
+                            Tiffany is responsible for managing the club's social media
+                            and answering all enquiries.
                         </p>
                     </div>
                 </li>
@@ -73,14 +72,14 @@ const Team = () => {
                 <li>
                     <div className="slide">
                         <div className="user-info">
-                            <img src={me} alt="user" />
+                            <img src={ellena} alt="user" />
                             <div>
-                                <h3 className='pranay'> Pranay Harpalani </h3>
-                                <span> VP of Social Affairs </span>
+                                <h3 className='elena'>Ellena Song</h3>
+                                <span>Vice President of Social Affairs</span>
                             </div>
                         </div>
                         <p>
-                            Pranay runs all the events and ensures that everyone has a great time 
+                            Ellena runs all the events and ensures that everyone has a great time 
                             while advancing their career.
                         </p>
                     </div>
@@ -92,7 +91,7 @@ const Team = () => {
                             <img src={noel} alt="user" />
                             <div>
                                 <h3 className='noel-h3'> Noel Johnston </h3>
-                                <span> VP of External Affairs </span>
+                                <span> Vice President of External Affairs </span>
                             </div>
                         </div>
                         <p>
@@ -105,30 +104,14 @@ const Team = () => {
                 <li>
                     <div className="slide">
                         <div className="user-info">
-                            <img src={marcus} alt="user" />
+                            <img src={ethan} alt="user" />
                             <div>
-                                <h3> Marcus Aldred-Ganhao </h3>
-                                <span> VP of Internal Affairs </span>
+                                <h3>Ethan Warren</h3>
+                                <span>Vice President of Finance</span>
                             </div>
                         </div>
                         <p>
-                            Marcus oversees all internal operations and 
-                            ensures smooth communication within the organization.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div className="slide">
-                        <div className="user-info">
-                            <img src={alex} alt="user" />
-                            <div>
-                                <h3 className='alex-h3'> Alex MacKay </h3>
-                                <span> VP of Finance </span>
-                            </div>
-                        </div>
-                        <p className='alex'>
-                            Alex manages all the organizations finances and
+                            Ethan manages all the organization's finances and
                             makes sure we stay within budget.
                         </p>
                     </div>
