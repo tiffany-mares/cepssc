@@ -7,11 +7,11 @@ const Forms = () => {
     <div className="forms-container">
       <p>
         Groups interested in requesting a PDR from 
-        CEPSSC can find the forms below. Meetings 
+        CCMPSSC can find the forms below. Meetings 
         are held weekly (holidays excluded) on 
         Microsoft Teams, email 
         <a href="mailto:cepsvpi@uoguelph.ca"> cepsvpi@uoguelph.ca </a> 
-        for more details. Please refer to the CEPSSC 
+        for more details. Please refer to the CCMPSSC 
         Board Meeting Schedule for when PDRs will be 
         accepted. PDR forms must be completed no later 
         than two days prior to the meeting at which 
@@ -71,11 +71,11 @@ const Forms = () => {
         <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2019/06/event-summary-form-.pdf" target="_blank" rel="noopener noreferrer">
         Event Summary Form</a></li>
         <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2016/04/cpessc-meetings-guide.pdf" target="_blank" rel="noopener noreferrer">
-        CEPSSC Meetings Guide</a></li>
+        CCMPSSC Meetings Guide</a></li>
         <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2020/01/exec-position-descriptions.pdf" target="_blank" rel="noopener noreferrer">
-        CEPSSC Exec Position Descriptions</a></li>
+        CCMPSSC Exec Position Descriptions</a></li>
         <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2019/08/sop-aso-form.pdf" target="_blank" rel="noopener noreferrer">
-        CEPSSC Policy (SOP) for Accredited Student Organization (ASO) Form</a></li>
+        CCMPSSC Policy (SOP) for Accredited Student Organization (ASO) Form</a></li>
       </ul>
 
       <Title subtitle='' title='Student Risk Management'/>
@@ -108,7 +108,7 @@ const Forms = () => {
 
       <Title subtitle='' title='Our Constitution'/>
       <p className='spacer'>
-      Below is CEPSSC’s official constitution.
+      Below is CCMPSSC's official constitution.
       To download the document, please click 
       the button.
       </p>

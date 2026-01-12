@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className='hero container'>
       <div className="hero-text">
-        <h1> College of Engineering and Physical Sciences Student Council </h1>
+        <h1> College of Computing, Math and Physical Sciences Student Council </h1>
         <p> Explore our accounts and stay in touch!</p>
         
         <a href="https://www.instagram.com/cepssc" target="_blank" rel="noopener noreferrer">

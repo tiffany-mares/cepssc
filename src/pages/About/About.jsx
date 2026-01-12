@@ -14,9 +14,9 @@ const About = () => {
     <>
     <div className='about'>
         <div className="about-left">
-            <h2> ABOUT CEPSSC </h2>
-            <p> The College of Engineering and Physical Sciences 
-                Student Council (CEPSSC) helps to ensure the wellbeing
+            <h2> ABOUT CCMPSSC </h2>
+            <p> The College of Computing, Math and Physical Sciences 
+                Student Council (CCMPSSC) helps to ensure the wellbeing
                 of all students in CCMPS. We seek to maintain harmonious 
                 and effective communication between the college,
                 students, alumni associations and the university community 
@@ -29,7 +29,7 @@ const About = () => {
         </div>
     </div>
     <div className='about-2'>
-        <h2> Who is part of CEPSSC?</h2>
+        <h2> Who is part of CCMPSSC?</h2>
         <img src={programs} alt="programs" />
     </div>
     <div className='about-3'>
