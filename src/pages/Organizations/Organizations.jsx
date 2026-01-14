@@ -9,7 +9,6 @@ import physicsclub from '../../assets/physics-club.png'
 import planet from '../../assets/planet.png'
 import toxicology from '../../assets/toxicology.png'
 import radio from '../../assets/radio.png'
-import nanoscience from '../../assets/nanoscience.png'
 import chem from '../../assets/chem_club.png'
 import dna from '../../assets/dna.png'
 
@@ -144,31 +143,6 @@ const Organizations = () => {
                         </p>
                 </div>
             </div>
-
-            <div className="constrain">
-                <div className="org">
-                    <a href="https://www.instagram.com/nanoclub_guelph/" target="_blank" rel="noopener noreferrer">
-                        <img src={nanoscience} alt="nanoscience" />
-                        <div className="caption-2">
-                            <img src={dna} alt="dna" />
-                            <p>Check us out!</p>
-                        </div>
-                    </a>
-                </div>
-                <div className="additional-info">
-                        <h3> Nanoscience Club</h3>
-                        <p> <br />
-                        What happens when you shrink something down 
-                        until it's measured in billionths of meters? 
-                        Turns out some pretty cool things! NanoClub 
-                        is open to anyone who is interested exploring 
-                        these phenomena and meeting others with the 
-                        same interests.
-                            <br /><br /><br /><br />
-                        </p>
-                </div>
-            </div>
-
 
         </div>
 

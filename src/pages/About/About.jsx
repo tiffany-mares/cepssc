@@ -15,7 +15,7 @@ const About = () => {
     <div className='about'>
         <div className="about-left">
             <h2> ABOUT CCMPSSC </h2>
-            <p> The College of Computing, Math and Physical Sciences 
+            <p> The College of Computational, Mathematical, and Physical Sciences 
                 Student Council (CCMPSSC) helps to ensure the wellbeing
                 of all students in CCMPS. We seek to maintain harmonious 
                 and effective communication between the college,

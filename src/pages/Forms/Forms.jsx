@@ -76,6 +76,8 @@ const Forms = () => {
         CCMPSSC Exec Position Descriptions</a></li>
         <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2019/08/sop-aso-form.pdf" target="_blank" rel="noopener noreferrer">
         CCMPSSC Policy (SOP) for Accredited Student Organization (ASO) Form</a></li>
+        <li><a href="/CEPSSC_F25_Election_Results_-.pdf" target="_blank" rel="noopener noreferrer">
+        F25 Election Results</a></li>
       </ul>
 
       <Title subtitle='' title='Student Risk Management'/>
@@ -112,7 +114,7 @@ const Forms = () => {
       To download the document, please click 
       the button.
       </p>
-      <a href="/Approved%20Constitution%20for%20the%20CCMPS%20College%20Government.docx" download className='btn dark-btn'>
+      <a href="/Approved_Corrected_Constitution_for_the_CCMPS_College_Government.docx" download className='btn dark-btn'>
         View Document
       </a>
     </div>
