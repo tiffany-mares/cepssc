@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Forms.css';
 import Title from '../../components/Title/Title';
 
 const Forms = () => {
+  const [open2025, setOpen2025] = useState(true);
+  const [open2024, setOpen2024] = useState(false);
+  const [openPolicies, setOpenPolicies] = useState(false);
+
   return (
     <div className="forms-container">
       <p>
@@ -25,46 +29,59 @@ const Forms = () => {
       </ul>
 
       <Title subtitle='' title='Board Meeting Minutes'/>
-      <ul>
-        <h3> 2025 - 2026 Minutes</h3>
+      
+      <div className="minutes-section">
+        <button 
+          className={`dropdown-header ${open2025 ? 'open' : ''}`} 
+          onClick={() => setOpen2025(!open2025)}
+        >
+          <span>2025 - 2026 Minutes</span>
+          <span className="dropdown-arrow">{open2025 ? '▼' : '▶'}</span>
+        </button>
+        {open2025 && (
+          <ul className="dropdown-content">
+            <li><a href="/CEPSSC%20Board%20Meeting%23%2012%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 12, January 12</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%2011%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 11, November 17</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%2010%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 10, November 10</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%209%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 9, November 3</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%208%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 8, October 20</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%207%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 7, October 6</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%206%20of%202025-2026%20term%20Agenda%20V2.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 6, September 29</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%205%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 5, September 22</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%204%20of%202025-2026%20term%20Agenda%20V2.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 4, September 8</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%203%20of%202025-2026%20term%20Agenda%20v2.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 3, August 7</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%202%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 2, July 7</a></li>
+            <li><a href="/CEPSSC%20Board%20Meeting%23%201%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
+              Agenda 1, June 26</a></li>
+          </ul>
+        )}
+      </div>
 
-          <li><a href="/CEPSSC%20Board%20Meeting%23%2012%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 12, January 12</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%2011%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 11, November 17</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%2010%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 10, November 10</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%209%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 9, November 3</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%208%20of%202025-2026%20term%20agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 8, October 20</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%207%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 7, October 6</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%206%20of%202025-2026%20term%20Agenda%20V2.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 6, September 29</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%205%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 5, September 22</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%204%20of%202025-2026%20term%20Agenda%20V2.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 4, September 8</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%203%20of%202025-2026%20term%20Agenda%20v2.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 3, August 7</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%202%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 2, July 7</a></li>
-
-          <li><a href="/CEPSSC%20Board%20Meeting%23%201%20of%202025-2026%20term%20Agenda.docx" target="_blank" rel="noopener noreferrer">
-            Agenda 1, June 26</a></li>
-
-      </ul>
+      <div className="minutes-section">
+        <button 
+          className={`dropdown-header ${open2024 ? 'open' : ''}`} 
+          onClick={() => setOpen2024(!open2024)}
+        >
+          <span>2024 - 2025 Minutes</span>
+          <span className="dropdown-arrow">{open2024 ? '▼' : '▶'}</span>
+        </button>
+        {open2024 && (
+          <ul className="dropdown-content">
+            <li><em>No minutes available yet</em></li>
+          </ul>
+        )}
+      </div>
 
       <Title subtitle='' title='Miscellaneous Documents'/>
       <ul>
@@ -74,11 +91,25 @@ const Forms = () => {
         CCMPSSC Meetings Guide</a></li>
         <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2020/01/exec-position-descriptions.pdf" target="_blank" rel="noopener noreferrer">
         CCMPSSC Exec Position Descriptions</a></li>
-        <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2019/08/sop-aso-form.pdf" target="_blank" rel="noopener noreferrer">
-        CCMPSSC Policy (SOP) for Accredited Student Organization (ASO) Form</a></li>
         <li><a href="/CEPSSC_F25_Election_Results_-.pdf" target="_blank" rel="noopener noreferrer">
         F25 Election Results</a></li>
       </ul>
+
+      <div className="minutes-section">
+        <button 
+          className={`dropdown-header ${openPolicies ? 'open' : ''}`} 
+          onClick={() => setOpenPolicies(!openPolicies)}
+        >
+          <span>CCMPSSC Approved Policies</span>
+          <span className="dropdown-arrow">{openPolicies ? '▼' : '▶'}</span>
+        </button>
+        {openPolicies && (
+          <ul className="dropdown-content">
+            <li><a href="https://cpesscdotcom.wordpress.com/wp-content/uploads/2019/08/sop-aso-form.pdf" target="_blank" rel="noopener noreferrer">
+              CCMPSSC Policy (SOP) for Accredited Student Organization (ASO) Form</a></li>
+          </ul>
+        )}
+      </div>
 
       <Title subtitle='' title='Student Risk Management'/>
       <ul>
