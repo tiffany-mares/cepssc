@@ -9,6 +9,7 @@ import './index.css'
 import Footer from './components/Footer/Footer'
 import Organizations from './pages/Organizations/Organizations'
 import Forms from './pages/Forms/Forms'
+import Calendar from './pages/Calendar/Calendar'
 import { Analytics } from "@vercel/analytics/react"
 
 const Home = () => {
@@ -46,6 +47,16 @@ const Contact_us = () => {
 }
 
 
+const Events_calendar = () => {
+  return (
+    <div className='contact-container '>
+      <Title subtitle='Stay up to date' title='Events Calendar'/>
+      <Calendar />
+    </div>
+  )
+}
+
+
 const Documents = () => {
   return (
     <div className='contact-container '>
@@ -68,6 +79,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About_us />} />
         <Route path="/student-clubs" element={<Clubs />} />
+        <Route path="/calendar" element={<Events_calendar />} />
         <Route path="/contact" element={<Contact_us />} />
         <Route path="/forms-documents" element={<Documents />} />
       </Routes>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css'
-import logo from '../../assets/cepssc-navbar.png'
+import logo from '../../assets/CCMPSSC TEXT PNG WHITE.png'
 import menu_icon from '../../assets/menu-icon.png'
 
 const Navbar = () => {
@@ -36,6 +36,7 @@ const Navbar = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About us</Link></li>
           <li><Link to="/student-clubs">Student Clubs</Link></li>
+          <li><Link to="/calendar">Calendar</Link></li>
           <li><Link to="/forms-documents">Forms & Documents</Link></li>
           <li><Link to="/contact" className='btn'>Contact us</Link></li>
         </ul>

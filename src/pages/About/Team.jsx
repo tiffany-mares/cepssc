@@ -5,7 +5,6 @@ import backicon from '../../assets/back-icon.png'
 import ethan from '../../assets/Screenshot 2026-01-12 002439.png'
 import ellena from '../../assets/ellena.jpeg'
 import tiffany from '../../assets/pfp.jpeg'
-import marcus from '../../assets/marcus.jpg'
 import noel from '../../assets/Screenshot 2026-01-12 003456.png'
 
 
@@ -38,20 +37,20 @@ const Team = () => {
                 <li>
                     <div className="slide">
                         <div className="user-info">
-                            <img src={marcus} alt="user" />
+                            <img src={noel} alt="user" />
                             <div>
-                                <h3>Marcus Aldred-Ganhao</h3>
+                                <h3 className='noel-h3'> Noel Johnston </h3>
                                 <span>President</span>
                             </div>
                         </div>
                         <p>
-                        As President, Marcus is responsible for overseeing 
-                        the committee and ensuring that all events run smoothly. 
+                        As President, Noel is responsible for overseeing
+                        the committee and ensuring that all events run smoothly.
                         </p>
                     </div>
                 </li>
 
-                
+
 
                 <li>
                     <div className="slide">
@@ -81,22 +80,6 @@ const Team = () => {
                         <p>
                             Ellena runs all the events and ensures that everyone has a great time 
                             while advancing their career.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div className="slide">
-                        <div className="user-info">
-                            <img src={noel} alt="user" />
-                            <div>
-                                <h3 className='noel-h3'> Noel Johnston </h3>
-                                <span> Vice President of External Affairs </span>
-                            </div>
-                        </div>
-                        <p>
-                        Noel is responsible for building and maintaining 
-                        relationships with external organizations. 
                         </p>
                     </div>
                 </li>

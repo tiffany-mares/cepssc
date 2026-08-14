@@ -1,0 +1,38 @@
+.calendar{
+    margin: 45px auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.calendar-intro{
+    color: #676767;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* Break out of the page's 10% side padding: Outlook's month view only
+   shows event names when its day cells are wide enough (~1010px+ frame),
+   and collapses names to "+N" badges in rows that are clipped vertically,
+   so the frame needs to fit the full 6-row month grid. */
+.calendar-frame{
+    width: 96vw;
+    margin-left: calc(50% - 48vw);
+    height: 760px;
+    margin-bottom: 30px;
+    border: 1px solid #EBECFE;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calendar-frame iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 700px) {
+    .calendar-frame{
+        height: 70vh;
+        min-height: 500px;
+    }
+}
