@@ -93,6 +93,8 @@ const Forms = () => {
         CCMPSSC Exec Position Descriptions</a></li>
         <li><a href="/CEPSSC_F25_Election_Results_-.pdf" target="_blank" rel="noopener noreferrer">
         F25 Election Results</a></li>
+        <li><a href="/CCMPSSC_AGM%20Agenda_26_27.pdf" target="_blank" rel="noopener noreferrer">
+        AGM Agenda 2026-2027</a></li>
       </ul>
 
       <div className="minutes-section">

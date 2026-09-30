@@ -14,6 +14,13 @@ const Hero = () => {
             <img src={instagram} alt="instagram" className="icon"/>
         </a>
 
+        <div className="agm-notice">
+          <p>Our Annual General Meeting is coming up — everyone is welcome to attend!</p>
+          <a href="/CCMPSSC_AGM%20Agenda_26_27.pdf" target="_blank" rel="noopener noreferrer" className="btn">
+            View the AGM Agenda
+          </a>
+        </div>
+
       </div>
     </div>
   )

@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import blankpfp from '../../assets/blank-pfp.webp'
 import nexticon from '../../assets/next-icon.png'
 import backicon from '../../assets/back-icon.png'
-import ethan from '../../assets/Screenshot 2026-01-12 002439.png'
 import ellena from '../../assets/ellena.jpeg'
 import tiffany from '../../assets/pfp.jpeg'
 import noel from '../../assets/Screenshot 2026-01-12 003456.png'
@@ -84,21 +83,6 @@ const Team = () => {
                     </div>
                 </li>
 
-                <li>
-                    <div className="slide">
-                        <div className="user-info">
-                            <img src={ethan} alt="user" />
-                            <div>
-                                <h3>Ethan Warren</h3>
-                                <span>Vice President of Finance</span>
-                            </div>
-                        </div>
-                        <p>
-                            Ethan manages all the organization's finances and
-                            makes sure we stay within budget.
-                        </p>
-                    </div>
-                </li>
             </ul>
         </div>
     </div>
